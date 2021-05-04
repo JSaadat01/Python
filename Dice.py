@@ -1,4 +1,5 @@
 import random
+import pytest
 
 #Create a Dice 1-6
 def dice():
