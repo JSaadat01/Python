@@ -1,4 +1,7 @@
 #Question - 1
+import string
+
+
 def one(input1,input2):
   if len(input1) > len(input2):
     return input1
@@ -56,8 +59,12 @@ def six(string, int, char):
     else:
         return False
 
-test = six("Thef",2,"h")
-print(test)
-
 #Question - 7
+def seven(inputString, char):
+    x = inputString.find(char)
+    x = x+1
+    return x
+
+test = seven("hello", "l")
+print(test)
 
