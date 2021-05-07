@@ -61,4 +61,6 @@ def seven(inputString, char):
     y = inputString.replace(" ", "")
     x = y.find(char)
     x = x+1
+    if char not in inputString:
+        return "-1"
     return x
