@@ -61,10 +61,11 @@ def six(string, int, char):
 
 #Question - 7
 def seven(inputString, char):
-    x = inputString.find(char)
+    y = inputString.replace(" ", "")
+    x = y.find(char)
     x = x+1
     return x
 
-test = seven("hello", "l")
+test = seven("he   llo", "l")
 print(test)
 
