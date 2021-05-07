@@ -65,7 +65,3 @@ def seven(inputString, char):
     x = y.find(char)
     x = x+1
     return x
-
-test = seven("he   llo", "l")
-print(test)
-
